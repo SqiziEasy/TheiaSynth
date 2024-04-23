@@ -18,6 +18,15 @@
 class Synth
 {
 public:
+    float noiseMix;
+    float envAttack;
+    float envDecay;
+    float envSustain;
+    float envRelease;
+    float oscMix;
+    float detune;
+    float tune;
+
     Synth();
 
     void allocateResources(double sampleRate, int samplesPerBlock);
@@ -30,7 +39,9 @@ private:
     float sampleRate;
     Voice voice;
     NoiseGenerator noiseGen;
+    float pitchBend;
 
     void noteOn(int note, int velocity);
     void noteOff(int note);
+    float calcPeriod(int note) const;
 };

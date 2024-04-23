@@ -18,7 +18,10 @@
       <FILE id="D6C5lk" name="NoiceGenerator.h" compile="0" resource="0"
             file="Source/NoiceGenerator.h"/>
       <FILE id="UFOD8k" name="Utils.h" compile="0" resource="0" file="Source/Utils.h"/>
+      <FILE id="grnowh" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
       <FILE id="oXOpvc" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="dNDu7v" name="Preset.h" compile="0" resource="0" file="Source/Preset.h"/>
+      <FILE id="uwulId" name="Envelope.h" compile="0" resource="0" file="Source/Envelope.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
